@@ -158,3 +158,69 @@ svg {
 .portfolio-links {
   width: 20%;
 }
+
+.contact {
+  background-color: var(--secondary);
+  color: azure;
+  display: flex;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+footer {
+  margin-top: 5rem;
+}
+
+.footer-img {
+  width: 50%;
+  margin: 2rem;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.contact-links > svg {
+  fill: azure;
+}
+
+.address {
+  display: block;
+}
+
+.tel > span, svg {
+  display: inline-block;
+}
+
+.tel > svg {
+  fill: azure;
+}
+
+.portfolio-img {
+  transition: transform 1s ease 0s;
+}
+
+.portfolio-img:hover {
+  transform: scale(1.1);
+}
+
+.all-icons {
+  transition: transform 1s ease 0s;
+  display: inline-block;
+}
+
+.all-icons:hover {
+  transform: scale(1.25);
+}
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
