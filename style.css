@@ -224,3 +224,80 @@ footer {
   text-decoration: none;
   color: inherit;
 }
+
+@media (min-width: 769px) {
+  .portfolio-item {
+    width: 25%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 569px) {
+  .head-div {
+    margin-top: 7rem;
+    padding: 0.5rem;
+  }
+  .img-div {
+    margin: -5rem 1rem 1rem -2.5rem;
+  }
+  .img-overlay {
+    top: 0;
+    transform: translateX(32%);
+  }
+  .portfolio-item {
+    width: 40%;
+  }
+}
+
+@media (max-width: 568px) {
+  header {
+    padding: 0;
+    background: none;
+  }
+  .header-img {
+    width: 100vw;
+  }
+  .img-div {
+    float: none;
+    width: 100%;
+    margin: 0rem;
+  }
+  .head-div {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+    box-shadow: none;
+    background: linear-gradient(-10deg, white 60%, var(--primary) 60%);
+    padding: 5vw;
+  }
+  h2 {
+    text-align: center;
+  }
+  .img-overlay {
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3.5rem;
+    width: 100%;
+    margin: 0 0.4rem
+  }
+  .about-icons {
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+  }
+  .portfolio-item {
+    width: 90%;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact-info > h2 {
+    text-align: center;
+  }
+  .contact-links {
+    justify-content: center;
+  }
+  .footer-img {
+    width: 100%;
+    margin: 1rem 0rem 0rem 0rem;
+  }
+}
