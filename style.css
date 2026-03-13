@@ -119,3 +119,42 @@ svg {
 .about-icons > svg {
   display: inline-block;
 }
+
+.my-work {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.my-work > h2 {
+  width: 84%;
+  margin: 1rem auto;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.portfolio-item {
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.57);
+}
+
+.portfolio-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.8rem;
+  font-size: clamp(1.1rem, 0.6rem + 1vw, 1.5rem);
+}
+
+.portfolio-links > svg {
+  display: inline-block;
+  width: 40%;
+}
+
+.portfolio-links {
+  width: 20%;
+}
